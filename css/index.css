@@ -1,4 +1,102 @@
-body {
-  color: red; }
+header {
+  height: 680px;
+  background-image: url(../img/2017531.jpg); }
+  header #nav {
+    position: fixed;
+    left: 33px;
+    top: 0; }
+    header #nav .logo {
+      margin-top: 44px; }
+    header #nav .logo a {
+      font: 700 26px "";
+      color: #000; }
+    header #nav .nav-b {
+      margin-top: 45px; }
+    header #nav .nav-b li a {
+      font: 12px/30px "";
+      color: #000; }
+  header #sidebar {
+    position: fixed;
+    right: 0;
+    top: 0; }
+
+#main {
+  background: #fff;
+  padding: 20px 0 42px; }
+  #main .margin {
+    width: 998px;
+    margin: 0 auto; }
+    #main .margin .newproduct {
+      height: 500px; }
+      #main .margin .newproduct .newproduct-l img {
+        float: left;
+        width: 664px;
+        height: 100%; }
+      #main .margin .newproduct .newproduct-r img {
+        float: left;
+        width: 334px;
+        height: 100%; }
+    #main .margin .changeable {
+      height: 500px; }
+      #main .margin .changeable .changeable-r img {
+        float: left;
+        width: 664px;
+        height: 100%; }
+      #main .margin .changeable .changeable-l img {
+        float: left;
+        width: 334px;
+        height: 100%; }
+    #main .margin .moods {
+      height: 500px; }
+      #main .margin .moods .moods-l img {
+        float: left;
+        width: 664px;
+        height: 100%; }
+      #main .margin .moods .moods-r img {
+        float: left;
+        width: 334px;
+        height: 100%; }
+    #main .margin .summer img {
+      width: 100%;
+      height: 100px; }
+    #main .margin .brand {
+      height: 500px; }
+      #main .margin .brand .brand-l img {
+        float: left;
+        width: 664px;
+        height: 100%; }
+      #main .margin .brand .brand-r img {
+        float: left;
+        width: 334px;
+        height: 100%; }
+
+footer {
+  background: #ededed;
+  padding-top: 64px; }
+  footer .footer-t {
+    width: 694px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 58px; }
+    footer .footer-t h3 {
+      font: 14px/38px "";
+      color: #4d4d4d; }
+    footer .footer-t .footer-t-l ul li a {
+      font: 12px/30px "";
+      color: #4d4d4d; }
+    footer .footer-t .footer-t-b ul li a {
+      font: 12px/30px "";
+      color: #4d4d4d; }
+    footer .footer-t .footer-t-r ul li a {
+      font: 12px/30px "";
+      color: #4d4d4d; }
+  footer .footer-b {
+    text-align: center;
+    font: 12px/20px "";
+    color: #4d4d4d; }
+    footer .footer-b a {
+      display: block; }
 
 /*# sourceMappingURL=index.css.map */
