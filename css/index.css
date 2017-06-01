@@ -15,10 +15,76 @@ header {
     header #nav .nav-b li a {
       font: 12px/30px "";
       color: #000; }
+    header #nav .nav-b li a:hover {
+      border-bottom: 1px solid #000; }
   header #sidebar {
     position: fixed;
-    right: 0;
-    top: 0; }
+    right: 26px;
+    top: 54px; }
+    header #sidebar ul li a {
+      position: relative;
+      display: block;
+      width: 25px;
+      height: 25px;
+      margin-top: 24px; }
+    header #sidebar ul li a i {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      display: none;
+      width: 60px;
+      background-color: #fff;
+      opacity: 0.5;
+      text-align: center;
+      color: #000;
+      font: 12px/25px ""; }
+    header #sidebar ul li:nth-child(5) a input {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      display: none;
+      width: 60px;
+      background-color: #fff;
+      opacity: 0.5;
+      text-align: center;
+      color: #000;
+      font: 12px/25px ""; }
+    header #sidebar ul li:nth-child(1) a {
+      background: url(../img/user.png) no-repeat center; }
+    header #sidebar ul li:nth-child(1) a:hover {
+      background: url(../img/_user.png) no-repeat center; }
+      header #sidebar ul li:nth-child(1) a:hover i {
+        display: block; }
+    header #sidebar ul li:nth-child(2) a {
+      background: url(../img/sign.png) no-repeat center; }
+    header #sidebar ul li:nth-child(2) a:hover {
+      background: url(../img/_sign.png) no-repeat center; }
+      header #sidebar ul li:nth-child(2) a:hover i {
+        display: block; }
+    header #sidebar ul li:nth-child(3) a {
+      background: url(../img/cart.png) no-repeat center; }
+    header #sidebar ul li:nth-child(3) a:hover {
+      background: url(../img/_cart.png) no-repeat center; }
+      header #sidebar ul li:nth-child(3) a:hover i {
+        display: block; }
+    header #sidebar ul li:nth-child(4) a {
+      background: url(../img/favorite.png) no-repeat center; }
+    header #sidebar ul li:nth-child(4) a:hover {
+      background: url(../img/_favorite.png) no-repeat center; }
+      header #sidebar ul li:nth-child(4) a:hover i {
+        display: block; }
+    header #sidebar ul li:nth-child(5) a {
+      background: url(../img/search.png) no-repeat center; }
+    header #sidebar ul li:nth-child(5) a:hover {
+      background: url(../img/_search.png) no-repeat center; }
+      header #sidebar ul li:nth-child(5) a:hover input {
+        display: block; }
+    header #sidebar ul li:nth-child(6) a {
+      background: url(../img/contact.png) no-repeat center; }
+    header #sidebar ul li:nth-child(6) a:hover {
+      background: url(../img/_contact.png) no-repeat center; }
+      header #sidebar ul li:nth-child(6) a:hover i {
+        display: block; }
 
 #main {
   background: #fff;
@@ -97,6 +163,6 @@ footer {
     font: 12px/20px "";
     color: #4d4d4d; }
     footer .footer-b a {
-      display: block; }
+      display: inline-block; }
 
 /*# sourceMappingURL=index.css.map */
