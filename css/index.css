@@ -219,6 +219,16 @@ header {
 footer {
   background: #ededed;
   padding-top: 64px; }
+  footer #zhiding {
+    position: fixed;
+    right: 1.2%;
+    bottom: 20px;
+    display: block;
+    width: 40px;
+    height: 38px;
+    background: url(../img/top.png) center no-repeat #9e9fa3; }
+  footer #zhiding:hover {
+    background-color: #000; }
   footer .footer-t {
     width: 694px;
     margin: 0 auto;
@@ -238,6 +248,22 @@ footer {
     footer .footer-t .footer-t-r ul li a {
       font: 12px/30px "";
       color: #4d4d4d; }
+    footer .footer-t .footer-t-r ul div {
+      font-size: 24px; }
+    footer .footer-t .footer-t-r ul div a:nth-child(1) {
+      display: inline-block;
+      width: 29px;
+      height: 29px;
+      background: url(../img/sina.png); }
+    footer .footer-t .footer-t-r ul div a:nth-child(1):hover {
+      background: url(../img/_sina.png) center no-repeat; }
+    footer .footer-t .footer-t-r ul div a:nth-child(2) {
+      display: inline-block;
+      width: 29px;
+      height: 29px;
+      background: url(../img/baidu.png); }
+    footer .footer-t .footer-t-r ul div a:nth-child(2):hover {
+      background: url(../img/_baidu.png) center no-repeat; }
   footer .footer-b {
     text-align: center;
     font: 12px/20px "";

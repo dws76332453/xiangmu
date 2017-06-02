@@ -267,6 +267,18 @@ header{
     }
 }
 footer{
+    #zhiding{
+        position: fixed;
+        right:1.2%;
+        bottom:20px;
+        display: block;
+        width:40px;
+        height:38px;
+        background:url(../img/top.png) center no-repeat #9e9fa3; 
+    }
+    #zhiding:hover{
+        background-color:#000;
+    }
     background:#ededed;
     padding-top:64px;
     .footer-t{
@@ -296,6 +308,27 @@ footer{
             ul li a{
                 font:12px/30px "";
                 color:#4d4d4d;
+            }
+            ul div{
+                font-size:24px;
+            }
+            ul div a:nth-child(1){
+                display:inline-block;
+                width:29px;
+                height:29px;
+                background: url(../img/sina.png);
+            }
+            ul div a:nth-child(1):hover{
+                background: url(../img/_sina.png) center no-repeat;
+            }
+            ul div a:nth-child(2){
+                display:inline-block;
+                width:29px;
+                height:29px;
+                background: url(../img/baidu.png);
+            }
+            ul div a:nth-child(2):hover{
+                background: url(../img/_baidu.png) center no-repeat;
             }
         }
     }

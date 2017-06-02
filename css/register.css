@@ -1,0 +1,43 @@
+#login {
+  width: 100%;
+  background: url(../img/login_ochirly.jpg) center no-repeat;
+  position: relative;
+  min-width: 950px;
+  height: 100%;
+  min-height: 445px;
+  background-size: 100% auto; }
+
+#denglukuang {
+  width: 368px;
+  height: 360px;
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+  z-index: 2; }
+  #denglukuang h3 {
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 8px;
+    padding: 0 30px; }
+  #denglukuang ul {
+    margin: 0 30px 8px;
+    line-height: 28px;
+    background: #f1f1f1;
+    overflow: hidden;
+    text-align: center; }
+    #denglukuang ul li {
+      float: left;
+      width: 50%; }
+
+#table p {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 8px; }
+
+/*# sourceMappingURL=register.css.map */

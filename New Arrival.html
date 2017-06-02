@@ -5,7 +5,7 @@
 		<title>欧范</title>
 	</head>
 	<link href="css/public.css" rel="stylesheet" type="text/css">
-		<link href="css/NewArrival.css" rel="stylesheet" type="text/css">
+	<link href="css/NewArrival.css" rel="stylesheet" type="text/css">
 	<body>
 		<div class="margin">
 			<header>
@@ -383,39 +383,16 @@
 	</body>
 </html>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/sidebor.js" ></script>
 <script>
 	$(function(){
-		 $(".xinpin").toggle(
-		 	function(){
-		 		$(".xinpincaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".xinpincaidan").css("display","none");
-		 	});
-		 $(".fuzhuang").toggle(
-		 	function(){
-		 		$(".fuzhuangcaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".fuzhuangcaidan").css("display","none");
-		 	});	
-	 	$(".peishi").toggle(
-	 		function(){
-	 		$(".peishicaidan").css("display","block");	
-	 		},
-	 		function(){
-	 		$(".peishicaidan").css("display","none");
-	 	});
-		 $(".cuxiao").toggle(
-		 	function(){
-		 		$(".cuxiaocaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".cuxiaocaidan").css("display","none");
-		 	})
+	
 		 $(".main-list li a").mouseover(function(){
-		 		
+		 		$(this).find("img").eq(1).hide()
 			});
-		 })
+		$(".main-list li a").mouseout(function(){
+		 		$(this).find("img").eq(1).show()
+			}); 
+		 
 	})
 </script>

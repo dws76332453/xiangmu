@@ -166,6 +166,7 @@
 			</div>
 		</section>
 		<footer>
+			<a href="#box" id="zhiding"></a>
 			<div class="footer-t clear">
 				<div class="footer-t-l">
 					<h3>SERVICE</h3>
@@ -190,8 +191,7 @@
 					<ul>
 						<li><a href="#">LOOKBOOK</a></li>
 						<li><a href="#">隐私声明</a></li>
-						<li><a href="#">关注:</a></li>
-						<li><a href="#">在线客服</a></li>
+						<div>关注:<a href=""></a><a href=""></a></div>
 					</ul>
 				</div>
 			</div>
@@ -204,38 +204,10 @@
 	</body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/tools.js" ></script>
 <script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/sidebor.js" ></script>
 <script type="text/javascript">
 	$(function(){
-		 $(".xinpin").toggle(
-		 	function(){
-		 		$(".xinpincaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".xinpincaidan").css("display","none");
-		 	});
-		 $(".fuzhuang").toggle(
-		 	function(){
-		 		$(".fuzhuangcaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".fuzhuangcaidan").css("display","none");
-		 	});	
-	 	$(".peishi").toggle(
-	 		function(){
-	 		$(".peishicaidan").css("display","block");	
-	 		},
-	 		function(){
-	 		$(".peishicaidan").css("display","none");
-	 	});
-		 $(".cuxiao").toggle(
-		 	function(){
-		 		$(".cuxiaocaidan").css("display","block");	
-		 	},
-		 	function(){
-		 		$(".cuxiaocaidan").css("display","none");
-		 	})
 		 $(".newproduct-l").mouseover(function(){
 		 	$(".newproduct-zhezhao").css("opacity","0.5")
 		 })
