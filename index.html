@@ -7,15 +7,17 @@
 	<link href="css/public.css" rel="stylesheet" type="text/css">
 	<link href="css/index.css" rel="stylesheet" type="text/css">
 	<body>
-		<header>
-			<div id="nav">
+		<header id="box">
+			
+		</header>
+		<div id="nav">
 				<div class="logo"><a href="#">ochirly</a></div>
 				<ul class="nav-b">
 					<li><a href="#">首页</a></li>
 					<li class="xinpin">
 						<a href="#">新品</a>
 						<ul class="xinpincaidan" style="display:none;">
-							<li><a href="#">所有商品</a></li>
+							<li><a href="New Arrival.html">所有商品</a></li>
 							<li><a href="">5月31到店</a></li>
 							<li><a href="">5月24到店</a></li>
 							<li><a href="">5月11到店</a></li>
@@ -36,7 +38,7 @@
 							<li><a href="">裤装</a></li>
 							<li><a href="">外套</a></li>
 							<li><a href="">呢料外套</a></li>
-							<li><a href=""></a>羽绒外套</li>
+							<li><a href="">羽绒外套</a></li>
 						</ul>
 					</li>
 					<li class="peishi">
@@ -67,7 +69,7 @@
 							<li><a href="">裤装</a></li>
 							<li><a href="">外套</a></li>
 							<li><a href="">呢料外套</a></li>
-							<li><a href=""></a>羽绒外套</li>
+							<li><a href="">羽绒外套</a></li>
 						</ul>
 					</li>
 					<li><a href="#">潮流新宠</a></li>
@@ -110,12 +112,14 @@
 				</li>
 			</ul>
 		</div>
-		</header>
 		<section id="main">
 			<div class="margin">
 				<div class="newproduct">	
 					<a href="#" class="newproduct-l">
 						<img src="img/截图 2017-05-31 14.10.02.png"/>
+						<div class="newproduct-zhezhao">
+							<img src="img/20170307191740519.png" class=""/>
+						</div>
 					</a>
 					<a href="#"  class="newproduct-r">
 						<img src="img/201753102.jpg"/>
@@ -127,11 +131,17 @@
 					</a>
 					<a href="#" class="changeable-r">
 						<img src="img/截图 2017-05-31 14.11.12.png"/>
+						<div class="changeable-zhezhao">
+							<img src="img/20160812123456755.png"/>
+						</div>
 					</a>
 				</div>
 				<div class="moods">	
 					<a href="#" class="moods-l">
 						<img src="img/截图 2017-05-31 14.12.44.png"/>
+						<div class="moods-zhezhao">
+							<img src="img/20170119111218405.png"/>
+						</div>
 					</a>
 					<a href="#" class="moods-r">
 						<img src="img/20170527125136985.jpg"/>
@@ -148,6 +158,9 @@
 					</a>
 					<a href="#" class="brand-r">
 						<img src="img/截图 2017-05-31 14.13.09.png"/>
+						<div class="brand-zhezhao">
+							<img src="img/20170426104042782.png"/>
+						</div>
 					</a>
 				</div>
 			</div>
@@ -191,6 +204,8 @@
 	</body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
 <script type="text/javascript">
 	$(function(){
 		 $(".xinpin").toggle(
@@ -221,5 +236,31 @@
 		 	function(){
 		 		$(".cuxiaocaidan").css("display","none");
 		 	})
+		 $(".newproduct-l").mouseover(function(){
+		 	$(".newproduct-zhezhao").css("opacity","0.5")
+		 })
+		 $(".newproduct-l").mouseout(function(){
+		 	$(".newproduct-zhezhao").css("opacity","0")
+		 })
+		 $(".changeable-r").mouseover(function(){
+		 	$(".changeable-zhezhao").css("opacity","0.5")
+		 })
+		 $(".changeable-r").mouseout(function(){
+		 	$(".changeable-zhezhao").css("opacity","0")
+		 })
+		 $(".moods-l").mouseover(function(){
+		 	$(".moods-zhezhao").css("opacity","0.5")
+		 })
+		 $(".moods-l").mouseout(function(){
+		 	$(".moods-zhezhao").css("opacity","0")
+		 	
+		 })
+		  $(".brand-r").mouseover(function(){
+		 	$(".brand-zhezhao").css("opacity","0.5")
+		 })
+		 $(".brand-r").mouseout(function(){
+		 	$(".brand-zhezhao").css("opacity","0")
+		 })
+		
 	})
 </script>

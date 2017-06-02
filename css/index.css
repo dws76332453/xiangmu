@@ -1,90 +1,98 @@
 header {
   height: 680px;
-  background-image: url(../img/2017531.jpg); }
-  header #nav {
-    position: fixed;
-    left: 33px;
-    top: 0; }
-    header #nav .logo {
-      margin-top: 44px; }
-    header #nav .logo a {
-      font: 700 26px "";
-      color: #000; }
-    header #nav .nav-b {
-      margin-top: 45px; }
-    header #nav .nav-b li a {
-      font: 12px/30px "";
-      color: #000; }
-    header #nav .nav-b li a:hover {
-      border-bottom: 1px solid #000; }
-  header #sidebar {
-    position: fixed;
-    right: 26px;
-    top: 54px; }
-    header #sidebar ul li a {
-      position: relative;
-      display: block;
-      width: 25px;
-      height: 25px;
-      margin-top: 24px; }
-    header #sidebar ul li a i {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      display: none;
-      width: 60px;
-      background-color: #fff;
-      opacity: 0.5;
-      text-align: center;
-      color: #000;
-      font: 12px/25px ""; }
-    header #sidebar ul li:nth-child(5) a input {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      display: none;
-      width: 60px;
-      background-color: #fff;
-      opacity: 0.5;
-      text-align: center;
-      color: #000;
-      font: 12px/25px ""; }
-    header #sidebar ul li:nth-child(1) a {
-      background: url(../img/user.png) no-repeat center; }
-    header #sidebar ul li:nth-child(1) a:hover {
-      background: url(../img/_user.png) no-repeat center; }
-      header #sidebar ul li:nth-child(1) a:hover i {
-        display: block; }
-    header #sidebar ul li:nth-child(2) a {
-      background: url(../img/sign.png) no-repeat center; }
-    header #sidebar ul li:nth-child(2) a:hover {
-      background: url(../img/_sign.png) no-repeat center; }
-      header #sidebar ul li:nth-child(2) a:hover i {
-        display: block; }
-    header #sidebar ul li:nth-child(3) a {
-      background: url(../img/cart.png) no-repeat center; }
-    header #sidebar ul li:nth-child(3) a:hover {
-      background: url(../img/_cart.png) no-repeat center; }
-      header #sidebar ul li:nth-child(3) a:hover i {
-        display: block; }
-    header #sidebar ul li:nth-child(4) a {
-      background: url(../img/favorite.png) no-repeat center; }
-    header #sidebar ul li:nth-child(4) a:hover {
-      background: url(../img/_favorite.png) no-repeat center; }
-      header #sidebar ul li:nth-child(4) a:hover i {
-        display: block; }
-    header #sidebar ul li:nth-child(5) a {
-      background: url(../img/search.png) no-repeat center; }
-    header #sidebar ul li:nth-child(5) a:hover {
-      background: url(../img/_search.png) no-repeat center; }
-      header #sidebar ul li:nth-child(5) a:hover input {
-        display: block; }
-    header #sidebar ul li:nth-child(6) a {
-      background: url(../img/contact.png) no-repeat center; }
-    header #sidebar ul li:nth-child(6) a:hover {
-      background: url(../img/_contact.png) no-repeat center; }
-      header #sidebar ul li:nth-child(6) a:hover i {
-        display: block; }
+  margin: 0 auto; }
+
+#nav {
+  position: fixed;
+  left: 33px;
+  top: 0;
+  z-index: 99; }
+  #nav .logo {
+    margin-top: 44px; }
+  #nav .logo a {
+    font: 700 26px "";
+    color: #000; }
+  #nav .nav-b {
+    margin-top: 45px; }
+    #nav .nav-b li ul {
+      margin-left: 10px;
+      font: 12px/24px "";
+      color: #dedede; }
+  #nav .nav-b li a {
+    font: 12px/30px "";
+    color: #000; }
+  #nav .nav-b li a:hover {
+    border-bottom: 1px solid #000; }
+
+#sidebar {
+  position: fixed;
+  right: 26px;
+  top: 54px;
+  z-index: 99; }
+  #sidebar ul li a {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 24px; }
+  #sidebar ul li a i {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    display: none;
+    width: 60px;
+    background-color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    color: #000;
+    font: 12px/25px ""; }
+  #sidebar ul li:nth-child(5) a input {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    display: none;
+    width: 60px;
+    background-color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    color: #000;
+    font: 12px/25px ""; }
+  #sidebar ul li:nth-child(1) a {
+    background: url(../img/user.png) no-repeat center; }
+  #sidebar ul li:nth-child(1) a:hover {
+    background: url(../img/_user.png) no-repeat center; }
+    #sidebar ul li:nth-child(1) a:hover i {
+      display: block; }
+  #sidebar ul li:nth-child(2) a {
+    background: url(../img/sign.png) no-repeat center; }
+  #sidebar ul li:nth-child(2) a:hover {
+    background: url(../img/_sign.png) no-repeat center; }
+    #sidebar ul li:nth-child(2) a:hover i {
+      display: block; }
+  #sidebar ul li:nth-child(3) a {
+    background: url(../img/cart.png) no-repeat center; }
+  #sidebar ul li:nth-child(3) a:hover {
+    background: url(../img/_cart.png) no-repeat center; }
+    #sidebar ul li:nth-child(3) a:hover i {
+      display: block; }
+  #sidebar ul li:nth-child(4) a {
+    background: url(../img/favorite.png) no-repeat center; }
+  #sidebar ul li:nth-child(4) a:hover {
+    background: url(../img/_favorite.png) no-repeat center; }
+    #sidebar ul li:nth-child(4) a:hover i {
+      display: block; }
+  #sidebar ul li:nth-child(5) a {
+    background: url(../img/search.png) no-repeat center; }
+  #sidebar ul li:nth-child(5) a:hover {
+    background: url(../img/_search.png) no-repeat center; }
+    #sidebar ul li:nth-child(5) a:hover input {
+      display: block; }
+  #sidebar ul li:nth-child(6) a {
+    background: url(../img/contact.png) no-repeat center; }
+  #sidebar ul li:nth-child(6) a:hover {
+    background: url(../img/_contact.png) no-repeat center; }
+    #sidebar ul li:nth-child(6) a:hover i {
+      display: block; }
 
 #main {
   background: #fff;
@@ -93,31 +101,85 @@ header {
     width: 998px;
     margin: 0 auto; }
     #main .margin .newproduct {
-      height: 500px; }
+      height: 500px;
+      position: relative; }
       #main .margin .newproduct .newproduct-l img {
         float: left;
         width: 664px;
         height: 100%; }
+      #main .margin .newproduct .newproduct-zhezhao {
+        opacity: 0;
+        position: absolute;
+        width: 664px;
+        height: 500px;
+        background: #000;
+        left: 0;
+        top: 0; }
+        #main .margin .newproduct .newproduct-zhezhao img {
+          position: absolute;
+          width: 450px;
+          height: 102px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto auto; }
       #main .margin .newproduct .newproduct-r img {
         float: left;
         width: 334px;
         height: 100%; }
     #main .margin .changeable {
+      position: relative;
       height: 500px; }
       #main .margin .changeable .changeable-r img {
         float: left;
         width: 664px;
         height: 100%; }
+      #main .margin .changeable .changeable-zhezhao {
+        opacity: 0;
+        position: absolute;
+        width: 664px;
+        height: 500px;
+        background: #000;
+        right: 0;
+        top: 0; }
+        #main .margin .changeable .changeable-zhezhao img {
+          position: absolute;
+          width: 450px;
+          height: 102px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto auto; }
       #main .margin .changeable .changeable-l img {
         float: left;
         width: 334px;
         height: 100%; }
     #main .margin .moods {
+      position: relative;
       height: 500px; }
       #main .margin .moods .moods-l img {
         float: left;
         width: 664px;
         height: 100%; }
+      #main .margin .moods .moods-zhezhao {
+        opacity: 0;
+        position: absolute;
+        width: 664px;
+        height: 500px;
+        background: #000;
+        left: 0;
+        top: 0; }
+        #main .margin .moods .moods-zhezhao img {
+          position: absolute;
+          width: 450px;
+          height: 102px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto auto; }
       #main .margin .moods .moods-r img {
         float: left;
         width: 334px;
@@ -126,7 +188,8 @@ header {
       width: 100%;
       height: 100px; }
     #main .margin .brand {
-      height: 500px; }
+      height: 500px;
+      position: relative; }
       #main .margin .brand .brand-l img {
         float: left;
         width: 664px;
@@ -135,6 +198,23 @@ header {
         float: left;
         width: 334px;
         height: 100%; }
+      #main .margin .brand .brand-zhezhao {
+        opacity: 0;
+        position: absolute;
+        width: 334px;
+        height: 500px;
+        background: #000;
+        right: 0;
+        top: 0; }
+        #main .margin .brand .brand-zhezhao img {
+          position: absolute;
+          width: 334px;
+          height: 102px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto auto; }
 
 footer {
   background: #ededed;

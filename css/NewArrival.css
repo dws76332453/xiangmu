@@ -52,13 +52,83 @@ header {
     color: #000; }
   #list #nav .nav-b {
     margin-top: 45px; }
+    #list #nav .nav-b li ul {
+      margin-left: 10px;
+      font: 12px/24px "";
+      color: #dedede; }
   #list #nav .nav-b li a {
     font: 12px/30px "";
     color: #000; }
+  #list #nav .nav-b li a:hover {
+    border-bottom: 1px solid #000; }
 #list #sidebar {
   position: fixed;
-  right: 0;
-  top: 0; }
+  right: 26px;
+  top: 54px; }
+  #list #sidebar ul li a {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 24px; }
+  #list #sidebar ul li a i {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    display: none;
+    width: 60px;
+    background-color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    color: #000;
+    font: 12px/25px ""; }
+  #list #sidebar ul li:nth-child(5) a input {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    display: none;
+    width: 60px;
+    background-color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    color: #000;
+    font: 12px/25px ""; }
+  #list #sidebar ul li:nth-child(1) a {
+    background: url(../img/user.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(1) a:hover {
+    background: url(../img/_user.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(1) a:hover i {
+      display: block; }
+  #list #sidebar ul li:nth-child(2) a {
+    background: url(../img/sign.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(2) a:hover {
+    background: url(../img/_sign.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(2) a:hover i {
+      display: block; }
+  #list #sidebar ul li:nth-child(3) a {
+    background: url(../img/cart.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(3) a:hover {
+    background: url(../img/_cart.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(3) a:hover i {
+      display: block; }
+  #list #sidebar ul li:nth-child(4) a {
+    background: url(../img/favorite.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(4) a:hover {
+    background: url(../img/_favorite.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(4) a:hover i {
+      display: block; }
+  #list #sidebar ul li:nth-child(5) a {
+    background: url(../img/search.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(5) a:hover {
+    background: url(../img/_search.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(5) a:hover input {
+      display: block; }
+  #list #sidebar ul li:nth-child(6) a {
+    background: url(../img/contact.png) no-repeat center; }
+  #list #sidebar ul li:nth-child(6) a:hover {
+    background: url(../img/_contact.png) no-repeat center; }
+    #list #sidebar ul li:nth-child(6) a:hover i {
+      display: block; }
 
 #main ul {
   display: flex;

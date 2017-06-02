@@ -41,10 +41,64 @@
 					<div class="logo"><a href="#">ochirly</a></div>
 					<ul class="nav-b">
 						<li><a href="#">首页</a></li>
-						<li><a href="#">新品</a></li>
-						<li><a href="#">服装</a></li>
-						<li><a href="#">配饰</a></li>
-						<li><a href="#">促销</a></li>
+						<li class="xinpin">
+						<a href="#">新品</a>
+						<ul class="xinpincaidan" style="display:none;">
+							<li><a href="#">所有商品</a></li>
+							<li><a href="">5月31到店</a></li>
+							<li><a href="">5月24到店</a></li>
+							<li><a href="">5月11到店</a></li>
+							<li><a href="">5月到店</a></li>
+							<li><a href="">4月到店</a></li>
+							<li><a href="">所有新品</a></li>
+						</ul>	
+					</li>
+					<li class="fuzhuang">
+						<a href="#">服装</a>
+						<ul class="fuzhuangcaidan"  style="display:none;">
+							<li><a href="">所有商品</a></li>
+							<li><a href="">连衣裙</a></li>
+							<li><a href="">毛织</a></li>
+							<li><a href="">T恤</a></li>
+							<li><a href="">衬衫</a></li>
+							<li><a href="">半截裙</a></li>
+							<li><a href="">裤装</a></li>
+							<li><a href="">外套</a></li>
+							<li><a href="">呢料外套</a></li>
+							<li><a href="">羽绒外套</a></li>
+						</ul>
+					</li>
+					<li class="peishi">
+						<a href="#">配饰</a>
+						<ul class="peishicaidan" style="display:none;">
+							<li><a href="">所有商品</a></li>
+							<li><a href="">包</a></li>
+							<li><a href="">鞋</a></li>
+							<li><a href="">腰带</a></li>
+							<li><a href="">围巾</a></li>
+							<li><a href="">首饰</a></li>
+							<li><a href="">袜子</a></li>
+							<li><a href="">帽子</a></li>
+						</ul>
+					</li>
+					<li class="cuxiao">
+						<a href="#">促销</a>
+						<ul class="cuxiaocaidan" style="display:none;">
+							<li><a href="">所有商品</a></li>
+							<li><a href="">4月5日优惠尝新</a></li>
+							<li><a href="">3月15日优惠尝新</a></li>
+							<li><a href="">3月1日优惠尝新</a></li>
+							<li><a href="">连衣裙</a></li>
+							<li><a href="">毛织</a></li>
+							<li><a href="">T恤</a></li>
+							<li><a href="">衬衫</a></li>
+							<li><a href="">半截裙</a></li>
+							<li><a href="">裤装</a></li>
+							<li><a href="">外套</a></li>
+							<li><a href="">呢料外套</a></li>
+							<li><a href="">羽绒外套</a></li>
+						</ul>
+					</li>
 						<li><a href="#">潮流新宠</a></li>
 						<li><a href="#">人气新选</a></li>
 						<li><a href="#">会员俱乐部</a></li>
@@ -87,7 +141,7 @@
 				</div>
 			</div>
 			<section id="main">
-				<ul>
+				<ul class="main-list">
 					<li>
 						<a href="">
 							<img src="img/01.jpg" alt="" />
@@ -328,3 +382,40 @@
 		</footer>
 	</body>
 </html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script>
+	$(function(){
+		 $(".xinpin").toggle(
+		 	function(){
+		 		$(".xinpincaidan").css("display","block");	
+		 	},
+		 	function(){
+		 		$(".xinpincaidan").css("display","none");
+		 	});
+		 $(".fuzhuang").toggle(
+		 	function(){
+		 		$(".fuzhuangcaidan").css("display","block");	
+		 	},
+		 	function(){
+		 		$(".fuzhuangcaidan").css("display","none");
+		 	});	
+	 	$(".peishi").toggle(
+	 		function(){
+	 		$(".peishicaidan").css("display","block");	
+	 		},
+	 		function(){
+	 		$(".peishicaidan").css("display","none");
+	 	});
+		 $(".cuxiao").toggle(
+		 	function(){
+		 		$(".cuxiaocaidan").css("display","block");	
+		 	},
+		 	function(){
+		 		$(".cuxiaocaidan").css("display","none");
+		 	})
+		 $(".main-list li a").mouseover(function(){
+		 		
+			});
+		 })
+	})
+</script>

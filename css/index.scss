@@ -1,11 +1,13 @@
 @charset "utf-8"; 
 header{
-    height:680px;
-    background-image:url(../img/2017531.jpg);
-    #nav{
+    height:680px; 
+    margin:0 auto;
+}
+#nav{
         position:fixed;
         left:33px;
         top:0;
+        z-index: 99;
         .logo{
             margin-top:44px;
         }
@@ -15,6 +17,11 @@ header{
         }
         .nav-b{
             margin-top:45px;
+            li ul{
+                margin-left:10px;
+                font:12px/24px "";
+                color:#dedede;
+            }
         }
         .nav-b li a{
              font:12px/30px "";
@@ -28,6 +35,7 @@ header{
         position:fixed;
         right:26px;
         top:54px;
+         z-index: 99;
         ul li a{
             position:relative;
             display: block;
@@ -113,8 +121,7 @@ header{
               display:block;  
             }
         }
-    }  
-}
+    }
 #main{
     background:#fff;
     padding:20px 0 42px;
@@ -123,10 +130,30 @@ header{
         margin:0 auto;
         .newproduct{
             height:500px;
+            position:relative;
             .newproduct-l img{
                 float:left; 
                 width:664px;
                 height:100%;
+            }
+            .newproduct-zhezhao{
+                opacity:0;
+                position:absolute;
+                width:664px;
+                height:500px;
+                background:#000;
+                left:0;
+                top:0;
+                img{
+                    position:absolute;
+                    width:450px;
+                    height:102px;
+                    left:0;
+                    right:0;
+                    top:0;
+                    bottom:0;
+                    margin:auto auto;
+                }
             }
             .newproduct-r img{ 
                 float:left;
@@ -135,11 +162,31 @@ header{
             }
         }
         .changeable{
+            position:relative;
             height:500px;
             .changeable-r img{
                 float:left; 
                 width:664px;
                 height:100%;
+            }
+            .changeable-zhezhao{
+                opacity:0;
+                position:absolute;
+                width:664px;
+                height:500px;
+                background:#000;
+                right:0;
+                top:0;
+                img{
+                    position:absolute;
+                    width:450px;
+                    height:102px;
+                    left:0;
+                    right:0;
+                    top:0;
+                    bottom:0;
+                    margin:auto auto;
+                }
             }
             .changeable-l img{ 
                 float:left;
@@ -148,11 +195,31 @@ header{
             } 
         }
         .moods{
+            position:relative;
             height:500px;
             .moods-l img{
                 float:left; 
                 width:664px;
                 height:100%;
+            }
+            .moods-zhezhao{
+                opacity:0;
+                position:absolute;
+                width:664px;
+                height:500px;
+                background:#000;
+                left:0;
+                top:0;
+                img{
+                    position:absolute;
+                    width:450px;
+                    height:102px;
+                    left:0;
+                    right:0;
+                    top:0;
+                    bottom:0;
+                    margin:auto auto;
+                }
             }
             .moods-r img{ 
                 float:left;
@@ -166,16 +233,36 @@ header{
         }
         .brand{
             height:500px;
+            position:relative;
             .brand-l img{
                 float:left; 
                 width:664px;
                 height:100%;
-            }
+            }  
             .brand-r img{ 
                 float:left;
                 width:334px;
-                height:100%;
+                height:100%; 
             } 
+             .brand-zhezhao{
+                    opacity:0;
+                    position:absolute;
+                    width:334px;
+                    height:500px;
+                    background:#000;
+                    right:0;
+                    top:0;
+                    img{
+                        position:absolute;
+                        width:334px;
+                        height:102px;
+                        left:0;
+                        right:0;
+                        top:0;
+                        bottom:0;
+                        margin:auto auto;
+                    }
+                }
         }
     }
 }
